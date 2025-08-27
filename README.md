@@ -13,7 +13,7 @@ Project ini mengilustrasikan dalam menggunakan:
 - **Katalon Studio** (Web, API, Mobile)  
 - **Page Object Model (POM)**  
 - **Automation Framework** (Data-Driven, Custom Keywords)  
-- **Test Case Design & Execution**  
+- **Test Case Design & Test Suite, Test Suite Collection Execution**  
 - **Custom PDF Report**  
 
 ---
