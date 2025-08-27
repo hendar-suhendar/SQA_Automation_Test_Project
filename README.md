@@ -5,5 +5,4 @@ Project ini dirancang untuk mengilustrasikan best practice automation test yang 
 (-) Mobile Automation (Android/iOS application testing)<br>
 (-) API Automation (RESTful & SOAP API testing)<br>
 <br>
-Dengan menggabungkan tiga platform ini dalam satu repository, project ini dapat digunakan sebagai bahan Automation Tester<br>
-dalam membuat scripting Test Positive & Negative Functionality dan juga secara End-to-End Testing.
+Dengan menggabungkan tiga platform ini dalam satu repository, project ini dapat digunakan sebagai bahan Automation Tester dalam membuat scripting Test Positive & Negative Functionality dan juga secara End-to-End Testing.
