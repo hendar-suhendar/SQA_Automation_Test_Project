@@ -31,7 +31,7 @@ pendekatan dan metodologi yang diterapkan dalam project ini, dengan **Page Objec
 **Framework Structure:**
 - **Test Cases:** executable test scripts  
 - **Object Repository:** POM untuk semua page objects, memisahkan UI element dari test logic  
-- **Test Data:** Excel/CSV/JSON dan **Database / Test Data Management** untuk data-driven testing  
+- **Test Data:** Excel dan **Database / Test Data Management** untuk data-driven testing  
 - **Keywords:** reusable actions (WebActions, APIKeywords, Page Object, dll.)  
 
 **Reporting:** Automated **Custom PDF Report** dengan screenshot hasil eksekusi  
