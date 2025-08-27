@@ -1,4 +1,4 @@
-# ![Katalon Studio](https://img.shields.io/badge/Katalon-Studio-4BC51D) Portofolio Katalon Studio – Suhendar (Hendar)
+# ![Katalon Studio](https://img.shields.io/badge/Katalon-Studio-4BC51D) Portofolio Katalon Studio
 
 ## About Me
 SQA_Automation_Test_Project adalah sebuah **sample project automation testing** yang dikembangkan menggunakan **Katalon Studio**. Project ini dirancang untuk mengilustrasikan **best practice automation testing**, dengan fokus pada **Page Object Model (POM)**, dan cakupan:
