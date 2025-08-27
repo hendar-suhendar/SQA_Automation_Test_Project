@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4_Order items and Register while check out</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>280d2166-c58f-4bbb-8047-2e3d6b8d8fda</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>SQA_Automation_Test_Project adalah sample project automation testing yang dikembangkan menggunakan Katalon Studio.&#xd;
+Project ini dirancang untuk mengilustrasikan best practice automation test yang saya buat di tahun 2025 ini, dengan cakupan:&#xd;
+&#xd;
+(-) Web Automation (UI Testing berbasis browser)&#xd;
+(-) Mobile Automation (Android/iOS application testing)&#xd;
+(-) API Automation (RESTful &amp; SOAP API testing)&#xd;
+&#xd;
+Dengan menggabungkan tiga platform ini dalam satu repository, project ini dapat digunakan sebagai bahan Automation Test Engineer untuk refference membuat scripting Test Positive &amp; Negative Functionality dan juga End-to-End testing.</description>
+   <name>SQA_Automation_Test_Project</name>
+   <tag></tag>
+   <UUID>6e91e809-a093-408c-9737-b0a194fbbcfd</UUID>
+   <createdEdition>ENTERPRISE</createdEdition>
+   <createdVersion>10.3.0</createdVersion>
+   <freeLicense>true</freeLicense>
+   <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>10.3.0</modifiedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>E:\Full Time My Jobs\4. Automation Test Katalon Studio\Test Automate Projects\SQA_Automation_Test_Project\SQA_Automation_Test_Project.prj</projectFileLocation>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <timeStampInProperties>false</timeStampInProperties>
+   <type>WEBUI</type>
+</Project>

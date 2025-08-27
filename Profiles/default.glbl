@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Base URL Web App</description>
+      <initValue>'https://demo.sqa-project.com'</initValue>
+      <name>Web_Url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Base URL API</description>
+      <initValue>'https://api.sqa-project.com/v1'</initValue>
+      <name>Api_BaseUrl</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Web Username</description>
+      <initValue>'qa_user'</initValue>
+      <name>Web_Username</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Web Password</description>
+      <initValue>''</initValue>
+      <name>Web_Password</name>
+      <protected>true</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Database Host</description>
+      <initValue>'localhost'</initValue>
+      <name>DB_Host</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Database Port</description>
+      <initValue>'5432'</initValue>
+      <name>DB_Port</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Database Name</description>
+      <initValue>'sqa_testdb'</initValue>
+      <name>DB_Name</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Database Username</description>
+      <initValue>'qa_dbuser'</initValue>
+      <name>DB_User</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Database Password</description>
+      <initValue>''</initValue>
+      <name>DB_Password</name>
+      <protected>true</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mobile App Path</description>
+      <initValue>'/apps/SQA_Mobile_App.apk'</initValue>
+      <name>Mobile_AppPath</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Mobile Device</description>
+      <initValue>'emulator-5554'</initValue>
+      <name>Mobile_Device</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default Timeout (seconds)</description>
+      <initValue>'30'</initValue>
+      <name>Timeout_Default</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retry Count</description>
+      <initValue>'2'</initValue>
+      <name>Retry</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Report Path</description>
+      <initValue>'Reports/Default/'</initValue>
+      <name>ReportPath</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Screenshot Path</description>
+      <initValue>'Reports/Default/Screenshots/'</initValue>
+      <name>ScreenshotPath</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Log Level</description>
+      <initValue>'INFO'</initValue>
+      <name>LogLevel</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-5 Logout functionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b8d9173-29f2-4c2d-b3ae-bd8b485fd5f1</testCaseGuid>
+</TestCaseEntity>
