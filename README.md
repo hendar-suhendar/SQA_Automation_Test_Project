@@ -1,25 +1,20 @@
 # ![Katalon Studio](https://img.shields.io/badge/Katalon-Studio-4BC51D) Portofolio Katalon Studio
 
 ## About Me
-SQA_Automation_Test_Project adalah sebuah **sample project automation testing** yang dikembangkan menggunakan **Katalon Studio**. Project ini dirancang untuk mengilustrasikan **best practice automation testing**, dengan fokus pada **Page Object Model (POM)**, dan cakupan:
+SQA_Automation_Test_Project adalah sebuah **sample project automation testing** yang dibuat menggunakan **Katalon Studio**. Project ini dirancang untuk mengilustrasikan **best practice automation testing**, dengan fokus pada **Page Object Model (POM)**, dan cakupan:
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Web-UI%20Testing-blue" alt="Web Testing"> 
-  <img src="https://img.shields.io/badge/Mobile-Android/iOS-red" alt="Mobile Testing"> 
-  <img src="https://img.shields.io/badge/API-RESTful-green" alt="API Testing">
-</div>
+- ![Web](https://img.shields.io/badge/Web-UI%20Testing-blue) **Web Automation** (UI Web Testing)  
+- ![Mobile](https://img.shields.io/badge/Mobile-Android/iOS-red) **Mobile Automation** (UI Android/iOS Application Testing)  
+- ![API](https://img.shields.io/badge/API-RESTful-green) **API Automation** (RESTful API Testing)  
 
 Dengan menggabungkan tiga platform ini dalam satu repository, project ini dapat digunakan sebagai **referensi untuk membuat scripting Test Positive & Negative Functionality** dan melakukan **End-to-End Testing**.  
 
 Project ini mengilustrasikan kemampuan saya dalam menggunakan:  
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Katalon-Studio-4BC51D" alt="Katalon Studio"> 
-  <img src="https://img.shields.io/badge/Page Object Model-POM-orange" alt="POM"> 
-  <img src="https://img.shields.io/badge/Automation Framework-DataDriven,Keywords-lightgrey" alt="Framework"> 
-  <img src="https://img.shields.io/badge/Test Case Design-Execution-blueviolet" alt="Test Case"> 
-  <img src="https://img.shields.io/badge/Custom PDF Report-red" alt="PDF Report">
-</div>
+- **Katalon Studio** (Web, API, Mobile)  
+- **Page Object Model (POM)**  
+- **Automation Framework** (Data-Driven, Custom Keywords)  
+- **Test Case Design & Execution**  
+- **Custom PDF Report**  
 
 ---
 
