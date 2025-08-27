@@ -9,7 +9,7 @@ SQA_Automation_Test_Project adalah sebuah **sample project automation testing** 
 
 Dengan menggabungkan tiga platform ini dalam satu repository, project ini dapat digunakan sebagai **referensi untuk membuat scripting Test Positive & Negative Functionality** dan melakukan **End-to-End Testing**.  
 
-Project ini mengilustrasikan kemampuan saya dalam menggunakan:  
+Project ini mengilustrasikan dalam menggunakan:  
 - **Katalon Studio** (Web, API, Mobile)  
 - **Page Object Model (POM)**  
 - **Automation Framework** (Data-Driven, Custom Keywords)  
