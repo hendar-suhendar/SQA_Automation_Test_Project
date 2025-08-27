@@ -24,7 +24,7 @@ Project ini mengilustrasikan kemampuan saya dalam menggunakan:
 ---
 
 ## Test Approach & Methodology
-Berikut adalah pendekatan dan metodologi yang diterapkan dalam project ini, dengan **Page Object Model (POM)** sebagai highlight:  
+pendekatan dan metodologi yang diterapkan dalam project ini, dengan **Page Object Model (POM)**:  
 
 **Automation Approach:** Keyword-driven + Data-driven  
 
