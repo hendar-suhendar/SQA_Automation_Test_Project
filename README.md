@@ -1,7 +1,5 @@
 # ![Katalon Studio](https://img.shields.io/badge/Katalon-Studio-4BC51D) Portofolio Katalon Studio – Suhendar (Hendar)
 
-![Automation Demo](https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif)
-
 ## Table of Contents
 - [About Me](#about-me)  
 - [Test Approach & Methodology](#test-approach--methodology)  
