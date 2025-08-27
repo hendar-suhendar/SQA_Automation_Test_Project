@@ -1,7 +1,7 @@
 # ![Katalon Studio](https://img.shields.io/badge/Katalon-Studio-4BC51D) Portofolio Katalon Studio
 
 ## About Me
-SQA_Automation_Test_Project adalah sebuah **sample project automation testing** yang dibuat menggunakan **Katalon Studio**. Project ini dirancang untuk mengilustrasikan **best practice automation testing**, dengan fokus pada **Page Object Model (POM)**, dan cakupan:
+SQA_Automation_Test_Project adalah sebuah **sample project automation testing** yang dibuat menggunakan **Katalon Studio**. Project ini hanya untuk mengilustrasikan **best practice automation testing**, dengan fokus pada **Page Object Model (POM)**, dan cakupan:
 
 - ![Web](https://img.shields.io/badge/Web-UI%20Testing-blue) **Web Automation** (UI Web Testing)  
 - ![Mobile](https://img.shields.io/badge/Mobile-Android/iOS-red) **Mobile Automation** (UI Android/iOS Application Testing)  
