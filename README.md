@@ -1,7 +1,7 @@
 SQA_Automation_Test_Project adalah sample project automation testing yang dikembangkan menggunakan Katalon Studio.
 Project ini dirancang untuk mengilustrasikan best practice automation test yang saya buat di tahun 2025 ini, dengan cakupan:<br>
 <br>
-(-) Web Automation (UI Testing berbasis browser)<br>
+(-) Web Automation (UI Testing berbasis browser PC dan Mobile Browser)<br>
 (-) Mobile Automation (Android/iOS application testing)<br>
 (-) API Automation (RESTful & SOAP API testing)<br>
 <br>
