@@ -15,7 +15,7 @@ import org.openqa.selenium.edge.EdgeDriver
 import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.firefox.FirefoxOptions
 import org.openqa.selenium.edge.EdgeOptions
-
+import com.kms.katalon.core.testobject.TestObject
 
 class WebActions {
 
@@ -29,6 +29,13 @@ class WebActions {
 				System.setProperty("webdriver.chrome.driver", projectDir + "/Drivers/chromedriver.exe")
 				ChromeOptions chromeOptions = new ChromeOptions()
 				chromeOptions.addArguments("--start-maximized")
+				chromeOptions.addArguments("--incognito")
+
+				Map<String, Object> prefs = new HashMap<>()
+				prefs.put("credentials_enable_service", false)
+				prefs.put("profile.password_manager_enabled", false)
+				chromeOptions.setExperimentalOption("prefs", prefs)
+
 				driver = new ChromeDriver(chromeOptions)
 				break
 
@@ -50,21 +57,7 @@ class WebActions {
 				throw new Exception("Browser '${browserName}' tidak dikenali. Gunakan: chrome / firefox / edge.")
 		}
 
-
 		DriverFactory.changeWebDriver(driver)
-
 		driver.get(url)
-	}
-
-
-	/**
-	 * Refresh browser
-	 */
-	@Keyword
-	def refreshBrowser() {
-		KeywordUtil.logInfo("Refreshing")
-		WebDriver webDriver = DriverFactory.getWebDriver()
-		webDriver.navigate().refresh()
-		KeywordUtil.markPassed("Refresh successfully")
 	}
 }

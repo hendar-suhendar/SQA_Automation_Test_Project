@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Negative_Login Empty Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37af6953-6dd8-41d1-8a78-4b5c901870cb</testCaseGuid>
+</TestCaseEntity>

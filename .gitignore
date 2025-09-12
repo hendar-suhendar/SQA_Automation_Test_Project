@@ -1,18 +1,26 @@
-.gradle
+# Ignore folder Katalon hasil build
+bin/
+Libs/
+Reports/
+.settings/
+build/
 
-bin
+# Ignore test reports & logs
+report/
+Reports/
+*.log
+*.tmp
 
-Reports
+# Ignore test data temporary
+*.xlsx
+*.csv
 
-Libs
+# Ignore Katalon keywords (kalau tidak mau dipush)
+Keywords/
 
-output
-
-!output/.gitkeep
-build
-
-.classpath
-
+# Optional: kalau ada config environment lokal
+.settings/
 .project
-
-.cache
+*.iml
+.idea/
+.vscode/

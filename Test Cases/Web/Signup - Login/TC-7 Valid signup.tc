@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>TC-7 Valid signup</description>
-   <name>TC-7 Valid signup</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7d387f4a-212a-4211-aec3-6f82b8917025</testCaseGuid>
-</TestCaseEntity>

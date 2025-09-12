@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Positive_Admin update without photo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e62385b8-3c63-4ade-849c-aa7e7718f810</testCaseGuid>
+</TestCaseEntity>

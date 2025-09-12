@@ -1,26 +1,63 @@
 package pageObjects
-import com.kms.katalon.core.testobject.ObjectRepository as OR
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import helpers.BaseHelper
+import locators.WebLocators
+import generic.ReportUtils
 import internal.GlobalVariable
 
-public class WebLoginPage {
+
+class WebLoginPage extends BaseHelper {
+
+	public TestObject txtUsername
+	public TestObject txtPassword
+	public TestObject btnLogin
+	public TestObject lblErrorMessage
 
 
-		private String usernameField = "Page_Login/input_username"
-		private String passwordField = "Page_Login/input_password"
-		private String loginButton   = "Page_Login/btn_login"
-	
-		def enterUsername(String username) {
-			WebUI.setText(OR.findTestObject(usernameField), username)
-		}
-	
-		def enterPassword(String password) {
-			WebUI.setText(OR.findTestObject(passwordField), password)
-		}
-	
-		def clickLogin() {
-			WebUI.click(OR.findTestObject(loginButton))
-		}
+	public WebLoginPage() {
+		txtUsername 	= getTestObject("txtUsername", WebLocators.INPUT_USERNAME, "xpath")
+		txtPassword 	= getTestObject("txtPassword", WebLocators.INPUT_PASSWORD, "xpath")
+		btnLogin    	= getTestObject("btnLogin", WebLocators.BTN_LOGIN, "xpath")
+		lblErrorMessage = getTestObject("lblErrorMessage", WebLocators.LBL_ERROR_MESSAGE, "xpath")
+	}
+
+
+	public void inputUsername(String username) {
+		setText(txtUsername, username)
+	}
+
+	public void inputPassword(String password) {
+		setEncryptedText(txtPassword, password)
+	}
+	public void clearInputPassword(String password) {
+		clearInput(txtPassword, password)
+	}
+
+	public void clickLogin() {
+		click(btnLogin)
+	}
+
+	public void clickOkButtonAlertPopup() {
+		okButtonAlertPopup()
+	}
+
+
+	// ==============================
+	// Verification (CONTINUE on failure)
+	// ==============================
+	public void verifyErrorMessage(String expectedMessage) {
+		verifyElementAndTextVisible(lblErrorMessage, expectedMessage)
+	}
+
+	public void verifyPopupAlertMessage(String expectedAlertMessage) {
+		verifyTextAlertPopup(expectedAlertMessage)
+	}
+
+	public void loginAdminSuccessfully(String username,String password) {
+		setText(txtUsername, username)
+		setEncryptedText(txtPassword, password)
+		click(btnLogin)
+	}
 }
-

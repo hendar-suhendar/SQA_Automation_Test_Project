@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Positive_Admin create success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ecb1cd7-e3ab-4cae-99f1-0158e1006c50</testCaseGuid>
+</TestCaseEntity>

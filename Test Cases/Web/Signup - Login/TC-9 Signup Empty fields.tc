@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-9 Signup Empty fields</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cb9a80f3-5e3c-49a3-bbd0-bfcc28193fd4</testCaseGuid>
-</TestCaseEntity>

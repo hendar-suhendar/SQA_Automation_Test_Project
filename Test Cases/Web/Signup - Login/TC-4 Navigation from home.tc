@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-4 Navigation from home</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>ecfbfcc3-b9d7-465b-87f2-e5adc235037c</testCaseGuid>
-</TestCaseEntity>

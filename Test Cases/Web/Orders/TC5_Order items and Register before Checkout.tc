@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC5_Order items and Register before Checkout</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2a3452ab-5946-4dff-814f-2d705d43623f</testCaseGuid>
-</TestCaseEntity>

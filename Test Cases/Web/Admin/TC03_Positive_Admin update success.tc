@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Positive_Admin update success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>088308f9-6f8b-4cf4-bf72-59d7f58e9df0</testCaseGuid>
+</TestCaseEntity>

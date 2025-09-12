@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC-10 Signup Invalid email format</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cfe767b9-f0ed-44f6-a883-1f36ce3d3647</testCaseGuid>
-</TestCaseEntity>

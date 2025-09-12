@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Positive_Admin create without photo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d3dcf10-c70e-4a7f-b725-ea100e7cee38</testCaseGuid>
+</TestCaseEntity>

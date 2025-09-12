@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Positive_Upload Article and Verify Display on Frontend</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d5787d2-8e5c-46d6-a36a-2eb52795727d</testCaseGuid>
+</TestCaseEntity>

@@ -6,45 +6,44 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Base URL Web App</description>
-      <initValue>'https://demo.sqa-project.com'</initValue>
+      <initValue>'http://localhost/creativecode/login_admin'</initValue>
       <name>Web_Url</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Base URL API</description>
-      <initValue>'https://api.sqa-project.com/v1'</initValue>
-      <name>Api_BaseUrl</name>
+      <description></description>
+      <initValue>'suhendar'</initValue>
+      <name>Admin_Username</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Default Web Username</description>
-      <initValue>'qa_user'</initValue>
-      <name>Web_Username</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Default Web Password</description>
+      <description></description>
       <initValue>''</initValue>
-      <name>Web_Password</name>
+      <name>Admin_Password</name>
       <protected>true</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Database Host</description>
-      <initValue>'localhost'</initValue>
-      <name>DB_Host</name>
+      <description>Mobile App Path</description>
+      <initValue>'/apps/SQA_Mobile_App.apk'</initValue>
+      <name>Mobile_AppPath</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Database Port</description>
-      <initValue>'5432'</initValue>
-      <name>DB_Port</name>
+      <description>config Test data value</description>
+      <initValue>findTestData(null)</initValue>
+      <name>currentTestData</name>
       <protected>false</protected>
-      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>config Test data index</description>
+      <initValue>1</initValue>
+      <name>currentIndex</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Database Name</description>
@@ -68,52 +67,27 @@
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Mobile App Path</description>
-      <initValue>'/apps/SQA_Mobile_App.apk'</initValue>
-      <name>Mobile_AppPath</name>
+      <description>TRUE or FALSE | Run multiple test cases in a Test Suite using a single browser session</description>
+      <initValue>false</initValue>
+      <name>Single_Open_Browser</name>
       <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Mobile Device</description>
-      <initValue>'emulator-5554'</initValue>
-      <name>Mobile_Device</name>
+      <description>TRUE or FALSE | Run multiple test cases in a Test Suite using a single Login session</description>
+      <initValue>false</initValue>
+      <name>Single_Login</name>
       <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Default Timeout (seconds)</description>
-      <initValue>'30'</initValue>
-      <name>Timeout_Default</name>
+      <description>TRUE or FALSE | Close Session Application after running single in Testcase</description>
+      <initValue>false</initValue>
+      <name>Close_Session_TC</name>
       <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Retry Count</description>
-      <initValue>'2'</initValue>
-      <name>Retry</name>
+      <description>TRUE or FALSE | Close Session Application after running single in Testsuite</description>
+      <initValue>true</initValue>
+      <name>Close_Session_TS</name>
       <protected>false</protected>
-      <valueType>STRING</valueType>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Report Path</description>
-      <initValue>'Reports/Default/'</initValue>
-      <name>ReportPath</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Screenshot Path</description>
-      <initValue>'Reports/Default/Screenshots/'</initValue>
-      <name>ScreenshotPath</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Log Level</description>
-      <initValue>'INFO'</initValue>
-      <name>LogLevel</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
