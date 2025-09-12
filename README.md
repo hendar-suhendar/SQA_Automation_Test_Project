@@ -45,5 +45,5 @@ Pendekatan dan metodologi yang diterapkan dalam project ini, dengan **Page Objec
 </div>
 
 - **Email:** myns.suhendar@gmail.com  
-- **LinkedIn:** [linkedin.com/in/suhendar-hendar-975518179](https://www.linkedin.com/in/suhendar-hendar-975518179/)  
+- **LinkedIn:** [https://www.linkedin.com/in/hendarsqa](https://www.linkedin.com/in/hendarsqa)  
 - **GitHub:** [github.com/hendar-suhendar](https://github.com/hendar-suhendar)  
