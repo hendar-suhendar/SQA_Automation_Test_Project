@@ -37,6 +37,16 @@ Pendekatan dan metodologi yang diterapkan dalam project ini, dengan **Page Objec
 
 ---
 
+## Sample PDF Report
+📄 [Lihat Sample PDF Report](https://github.com/hendar-suhendar/SQA_Automation_Test_Project/Reports/CustomPDFReport/TS_Admin%20Feature_Report_20250913_040342.pdf)
+
+---
+
+## Overview Demo Running
+[![Watch the video](https://img.youtube.com/vi/rvEnTX8_atU/hqdefault.jpg)](https://youtu.be/rvEnTX8_atU?si=jXOkkeJxu4wpqMCB)
+
+---
+
 ## Contact
 <div align="center">
   <img src="https://img.shields.io/badge/Email-myns.suhendar@gmail.com-blue" alt="Email">  
