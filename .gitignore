@@ -24,3 +24,7 @@ Keywords/
 *.iml
 .idea/
 .vscode/
+
+# Ignore specific file PdfReportGenerator
+PdfReportGenerator
+PdfReportGenerator.*
