@@ -1,7 +1,7 @@
 # Ignore folder Katalon hasil build
 bin/
 Libs/
-Reports/
+#Reports/
 .settings/
 build/
 
@@ -12,7 +12,7 @@ Reports/
 *.tmp
 
 # Ignore test data temporary
-*.xlsx
+#*.xlsx
 *.csv
 
 # Ignore Katalon keywords (kalau tidak mau dipush)
