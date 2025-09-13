@@ -25,6 +25,3 @@ Keywords/
 .idea/
 .vscode/
 
-# Ignore specific file PdfReportGenerator
-PdfReportGenerator
-PdfReportGenerator.*
