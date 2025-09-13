@@ -38,8 +38,8 @@ Pendekatan dan metodologi yang diterapkan dalam project ini, dengan **Page Objec
 ---
 ## Sample PDF Reports
 Report Test Functionality Register Admin
-📄 [📥 Download Admin Feature Report](https://raw.githubusercontent.com/hendar-suhendar/SQA_Automation_Test_Project/main/Reports/CustomPDFReport/TS_Admin%20Feature_Report_20250913_040342.pdf)
-Report Test Functionality Register Admin
+📄 [📥 Download Admin Feature Report](https://raw.githubusercontent.com/hendar-suhendar/SQA_Automation_Test_Project/main/Reports/CustomPDFReport/TS_Admin%20Feature_Report_20250913_040342.pdf) <br>
+Report Test Functionality Login
 📄 [📥 Download Login Feature Report](https://raw.githubusercontent.com/hendar-suhendar/SQA_Automation_Test_Project/main/Reports/CustomPDFReport/TS_Login%20Feature_Report_20250913_034433.pdf)
 
 ---
