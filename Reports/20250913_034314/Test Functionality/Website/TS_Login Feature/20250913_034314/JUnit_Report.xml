@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login Feature" time="69.704" tests="5" failures="0" errors="0">
+   <testsuite name="TS_Login Feature" tests="5" failures="0" errors="0" time="69.704" skipped="0" timestamp="2025-09-12T20:43:23.388Z" hostname="Suhendar-PC - DESKTOP-0GKMVGL" id="Test Suites/Test Functionality/Website/TS_Login Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\Full Time Jobs\\4. Automation Test Katalon Studio\\Repository\\SQA_Automation_Test_Project\\Reports\\20250913_034314\\Test Functionality\\Website\\TS_Login Feature\\20250913_034314"/>
+         <property name="logFiles" value="E:\\Full Time Jobs\\4. Automation Test Katalon Studio\\Repository\\SQA_Automation_Test_Project\\Reports\\20250913_034314\\Test Functionality\\Website\\TS_Login Feature\\20250913_034314\\execution0.log"/>
+         <property name="attachments" value="E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run1/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run1/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run1/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run1/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run1/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run1/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Negative_Login Empty Username\Run1/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Negative_Login Empty Password\Run1/screenshot_1.png"/>
+         <property name="hostName" value="Suhendar-PC - DESKTOP-0GKMVGL"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Chrome 140.0.7339.128"/>
+         <property name="userFullName" value="suhendar"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="7b2d88787a5d5e8632c066cfb08dd072"/>
+         <property name="projectName" value="SQA_Automation_Test_Project"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web/Login/TC01_Positive_Login Valid Credential" time="21.69" classname="Test Cases/Web/Login/TC01_Positive_Login Valid Credential" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:43:30 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC01_Positive_Login Valid Credential: Test Cases/Web/Login/TC01_Positive_Login Valid Credential
+
+13-09-2025T03:43:30 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:43:30 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:43:30 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:43:31 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:43:31 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:43:32 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:43:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:34 - [MESSAGE][PASSED] - Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:43:34 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:43:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:43:35 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:43:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run1/screenshot_1.png]]
+
+13-09-2025T03:43:35 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:43:35 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:35 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:40 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:43:40 - [TEST_STEP][PASSED] - dashboard.verifyWelcomeMessage(data.getValue("Expected Outcome 1", index)): Actual text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' and expected text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' are matched 
+
+13-09-2025T03:43:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:43:42 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:43 - [MESSAGE][PASSED] - Text of object 'lblDashboardLoginSuccess' is: 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)'
+
+13-09-2025T03:43:43 - [MESSAGE][PASSED] - Actual text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' and expected text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' are matched 
+
+13-09-2025T03:43:43 - [TEST_STEP][PASSED] - dashboard.verifyLoginInitial(data.getValue("Expected Outcome 2", index)): Actual text 'Suhendar' and expected text 'Suhendar' are matched 
+
+13-09-2025T03:43:43 - [MESSAGE][PASSED] - Object 'lblDashboardLoginInitial' is visible
+
+13-09-2025T03:43:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:44 - [MESSAGE][PASSED] - Text of object 'lblDashboardLoginInitial' is: 'Login Admin
+Suhendar'
+
+13-09-2025T03:43:44 - [MESSAGE][PASSED] - Actual text 'Suhendar' and expected text 'Suhendar' are matched 
+
+13-09-2025T03:43:44 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:43:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run1/screenshot_2.png]]
+
+13-09-2025T03:43:44 - [TEST_STEP][PASSED] - dashboard.actionLogoutWebsite(): Object: 'btnLogout' is clicked on
+
+13-09-2025T03:43:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:45 - [MESSAGE][PASSED] - Object: 'ddlHeader' is clicked on
+
+13-09-2025T03:43:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:43:47 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:47 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:52 - [MESSAGE][PASSED] - Object: 'btnLogout' is clicked on
+
+13-09-2025T03:43:52 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:43:52 - [TEST_STEP][ERROR] - if (Close_Session == true): groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:43:52 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC02_Negative_Login Invalid Username" time="9.622" classname="Test Cases/Web/Login/TC02_Negative_Login Invalid Username" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:43:52 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC02_Negative_Login Invalid Username: Test Cases/Web/Login/TC02_Negative_Login Invalid Username
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:43:52 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:43:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:53 - [MESSAGE][PASSED] - Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:43:53 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:43:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:43:54 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:43:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run1/screenshot_1.png]]
+
+13-09-2025T03:43:54 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:43:54 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:43:54 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:43:59 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:43:59 - [TEST_STEP][PASSED] - login.verifyErrorMessage(data.getValue("Expected Outcome 1", index)): Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T03:44:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:44:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:01 - [MESSAGE][PASSED] - Text of object 'lblErrorMessage' is: 'maaf username atau password salah'
+
+13-09-2025T03:44:01 - [MESSAGE][PASSED] - Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:44:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run1/screenshot_2.png]]
+
+13-09-2025T03:44:01 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:01 - [TEST_STEP][ERROR] - if (Close_Session == true): groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:01 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC03_Negative_Login Invalid Password" time="11.81" classname="Test Cases/Web/Login/TC03_Negative_Login Invalid Password" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:44:01 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC03_Negative_Login Invalid Password: Test Cases/Web/Login/TC03_Negative_Login Invalid Password
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:44:01 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:44:02 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:44:02 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:44:02 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:44:02 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T03:44:02 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): Refresh successfully
+
+13-09-2025T03:44:02 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+13-09-2025T03:44:04 - [MESSAGE][PASSED] - Refresh successfully
+
+13-09-2025T03:44:04 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:44:04 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:44:04 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'Tester2' is set on object 'txtUsername'
+
+13-09-2025T03:44:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:05 - [MESSAGE][PASSED] - Text 'Tester2' is set on object 'txtUsername'
+
+13-09-2025T03:44:05 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:44:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:44:05 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:44:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run1/screenshot_1.png]]
+
+13-09-2025T03:44:05 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:44:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:10 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:44:10 - [TEST_STEP][PASSED] - login.verifyErrorMessage(data.getValue("Expected Outcome 1", index)): Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T03:44:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:44:13 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:13 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:13 - [MESSAGE][PASSED] - Text of object 'lblErrorMessage' is: 'maaf username atau password salah'
+
+13-09-2025T03:44:13 - [MESSAGE][PASSED] - Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:44:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run1/screenshot_2.png]]
+
+13-09-2025T03:44:13 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:13 - [TEST_STEP][ERROR] - if (Close_Session == true): groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:13 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC04_Negative_Login Empty Username" time="9.614" classname="Test Cases/Web/Login/TC04_Negative_Login Empty Username" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:44:13 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC04_Negative_Login Empty Username: Test Cases/Web/Login/TC04_Negative_Login Empty Username
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:44:13 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:44:14 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:44:14 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:44:14 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): Refresh successfully
+
+13-09-2025T03:44:14 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+13-09-2025T03:44:16 - [MESSAGE][PASSED] - Refresh successfully
+
+13-09-2025T03:44:16 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:44:16 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:44:16 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:44:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:44:16 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:44:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:17 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:44:17 - [TEST_STEP][PASSED] - login.verifyPopupAlertMessage(data.getValue("Expected Outcome 1", index)): verify equals message on alert popup
+
+13-09-2025T03:44:17 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T03:44:17 - [MESSAGE][PASSED] - Get alert text successfully: 'maaf username tidak boleh kosong'
+
+13-09-2025T03:44:17 - [MESSAGE][INFO] - Alert text: maaf username tidak boleh kosong
+
+13-09-2025T03:44:17 - [MESSAGE][PASSED] - Actual object 'maaf username tidak boleh kosong' and expected object 'maaf username tidak boleh kosong' are equal
+
+13-09-2025T03:44:17 - [MESSAGE][INFO] - verify equals message on alert popup
+
+13-09-2025T03:44:17 - [TEST_STEP][PASSED] - login.clickOkButtonAlertPopup(): OK button clicked on alert popup
+
+13-09-2025T03:44:17 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T03:44:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-09-2025T03:44:22 - [MESSAGE][PASSED] - Alert accepted
+
+13-09-2025T03:44:22 - [MESSAGE][INFO] - OK button clicked on alert popup
+
+13-09-2025T03:44:22 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:44:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Negative_Login Empty Username\Run1/screenshot_1.png]]
+
+13-09-2025T03:44:23 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:23 - [TEST_STEP][ERROR] - if (Close_Session == true): groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:23 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC05_Negative_Login Empty Password" time="9.835" classname="Test Cases/Web/Login/TC05_Negative_Login Empty Password" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:44:23 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC05_Negative_Login Empty Password: Test Cases/Web/Login/TC05_Negative_Login Empty Password
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): Refresh successfully
+
+13-09-2025T03:44:23 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+13-09-2025T03:44:25 - [MESSAGE][PASSED] - Refresh successfully
+
+13-09-2025T03:44:25 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:44:25 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:44:25 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:44:25 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:26 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:26 - [MESSAGE][PASSED] - Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:44:26 - [TEST_STEP][PASSED] - login.clearInputPassword(): Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:26 - [MESSAGE][PASSED] - Text of object 'txtPassword' is cleared
+
+13-09-2025T03:44:26 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:27 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:44:27 - [TEST_STEP][PASSED] - login.verifyPopupAlertMessage(data.getValue("Expected Outcome 1", index)): verify equals message on alert popup
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Get alert text successfully: 'maaf password tidak boleh kosong'
+
+13-09-2025T03:44:27 - [MESSAGE][INFO] - Alert text: maaf password tidak boleh kosong
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Actual object 'maaf password tidak boleh kosong' and expected object 'maaf password tidak boleh kosong' are equal
+
+13-09-2025T03:44:27 - [MESSAGE][INFO] - verify equals message on alert popup
+
+13-09-2025T03:44:27 - [TEST_STEP][PASSED] - login.clickOkButtonAlertPopup(): OK button clicked on alert popup
+
+13-09-2025T03:44:27 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T03:44:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-09-2025T03:44:32 - [MESSAGE][PASSED] - Alert accepted
+
+13-09-2025T03:44:32 - [MESSAGE][INFO] - OK button clicked on alert popup
+
+13-09-2025T03:44:32 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:44:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Negative_Login Empty Password\Run1/screenshot_1.png]]
+
+13-09-2025T03:44:33 - [TEST_STEP][ERROR] - Start listener action : afterTestCase: groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:33 - [TEST_STEP][ERROR] - if (Close_Session == true): groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-09-2025T03:44:33 - [MESSAGE][ERROR] - groovy.lang.MissingPropertyException: No such property: Close_Session for class: internal.GlobalVariable
+	at TestListener.afterTestCase(TestListener.groovy:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeMethod(TestHooker.java:111)
+	at com.kms.katalon.core.context.internal.TestHooker.lambda$3(TestHooker.java:95)
+	at com.kms.katalon.core.context.internal.TestHooker.invokeContextMethods(TestHooker.java:94)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.lambda$3(TestListenerCollector.java:88)
+	at com.kms.katalon.core.context.internal.TestListenerCollector.handleListenerEvent(TestListenerCollector.java:85)
+	at com.kms.katalon.core.context.internal.ExecutionEventManager.publicEvent(ExecutionEventManager.java:36)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:352)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1757709794200.run(TempTestSuite1757709794200.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2025T03:43:23 - [TEST_STEP][PASSED] - Start listener action : beforeTestSuite: null
+
+13-09-2025T03:43:23 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): null
+
+13-09-2025T03:43:24 - [TEST_STEP][PASSED] - WebActions().openBrowser("Chrome", Web_Url): null
+
+13-09-2025T03:43:30 - [TEST_STEP][PASSED] - testCases.clear(): null
+
+13-09-2025T03:43:30 - [TEST_STEP][PASSED] - startTimes.clear(): null
+
+13-09-2025T03:43:30 - [TEST_STEP][PASSED] - println([INFO] Mulai Test Suite: $testSuiteContext.getTestSuiteId()): null
+
+13-09-2025T03:43:23 - [TEST_SUITE][PASSED] - TS_Login Feature: null
+
+13-09-2025T03:44:33 - [TEST_STEP][PASSED] - Start listener action : afterTestSuite: null
+
+13-09-2025T03:44:33 - [TEST_STEP][PASSED] - if (Close_Session_TS == true): Browser is closed
+
+13-09-2025T03:44:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2025T03:44:33 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2025T03:44:33 - [TEST_STEP][PASSED] - ••••••••SuiteName = getTestSuiteId().split("/")[-1]: null
+
+13-09-2025T03:44:33 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null
+
+13-09-2025T03:44:33 - [TEST_STEP][PASSED] - pdfPath = getProjectDir() + /Reports/CustomPDFReport/$••••••••SuiteName_Report_$timestamp.pdf: null
+
+13-09-2025T03:44:33 - [TEST_STEP][PASSED] - PdfReportGenerator.generateReport(pdfPath, ••••••••Cases, ••••••••SuiteName): null
+
+13-09-2025T03:44:34 - [TEST_STEP][PASSED] - println([INFO] PDF report berhasil dibuat: $pdfPath): null
+
+13-09-2025T03:44:34 - [TEST_STEP][PASSED] - total = ••••••••Cases.size(): null
+
+13-09-2025T03:44:34 - [TEST_STEP][PASSED] - passed = ••••••••Cases.count({ -> ... }): null
+
+13-09-2025T03:44:34 - [TEST_STEP][PASSED] - failed = ••••••••Cases.count({ -> ... }): null
+
+13-09-2025T03:44:34 - [TEST_STEP][PASSED] - passRate = ((total > 0)) ? ((passed * 100.0) / total) : 0: null
+
+13-09-2025T03:44:34 - [TEST_STEP][PASSED] - println([SUMMARY] Total=$total, Passed=$passed, Failed=$failed, PassRate=$String.format(%.2f%%, passRate)): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

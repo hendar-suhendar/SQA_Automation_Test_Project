@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Admin Feature" time="125.721" tests="5" failures="0" errors="0">
+   <testsuite name="TS_Admin Feature" tests="5" failures="0" errors="0" time="125.721" skipped="0" timestamp="2025-09-12T21:01:35.838Z" hostname="Suhendar-PC - DESKTOP-0GKMVGL" id="Test Suites/Test Functionality/Website/TS_Admin Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\Full Time Jobs\\4. Automation Test Katalon Studio\\Repository\\SQA_Automation_Test_Project\\Reports\\20250913_040121\\Test Functionality\\Website\\TS_Admin Feature\\20250913_040121"/>
+         <property name="logFiles" value="E:\\Full Time Jobs\\4. Automation Test Katalon Studio\\Repository\\SQA_Automation_Test_Project\\Reports\\20250913_040121\\Test Functionality\\Website\\TS_Admin Feature\\20250913_040121\\execution0.log"/>
+         <property name="attachments" value="E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Admin create success\Run2/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Admin create success\Run2/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Positive_Admin create without photo\Run2/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Positive_Admin create without photo\Run2/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Positive_Admin update success\Run2/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Positive_Admin update success\Run2/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Positive_Admin update without photo\Run2/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Positive_Admin update without photo\Run2/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Positive_Admin delete success\Run2/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Positive_Admin delete success\Run2/screenshot_2.png"/>
+         <property name="hostName" value="Suhendar-PC - DESKTOP-0GKMVGL"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Chrome 140.0.7339.128"/>
+         <property name="userFullName" value="suhendar"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="3e88287987d6fa82e101ac95f6f60fd1"/>
+         <property name="projectName" value="SQA_Automation_Test_Project"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web/Admin/TC01_Positive_Admin create success" time="29.314" classname="Test Cases/Web/Admin/TC01_Positive_Admin create success" status="PASSED">
+         <system-out><![CDATA[13-09-2025T04:01:46 - [TEST_CASE][PASSED] - Test Cases/Web/Admin/TC01_Positive_Admin create success: Test Cases/Web/Admin/TC01_Positive_Admin create success
+
+13-09-2025T04:01:46 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T04:01:46 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T04:01:46 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T04:01:48 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T04:01:48 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:01:48 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T04:01:48 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T04:01:48 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T04:01:48 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T04:01:48 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T04:01:49 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T04:01:49 - [TEST_STEP][PASSED] - admin = new pageObjects.WebAdminPage(): null
+
+13-09-2025T04:01:49 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T04:01:49 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T04:01:49 - [TEST_STEP][PASSED] - login.loginAdminSuccessfully(Admin_Username, Admin_Password): Object: 'btnLogin' is clicked on
+
+13-09-2025T04:01:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:01:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:01:50 - [MESSAGE][PASSED] - Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T04:01:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:01:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:01:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T04:01:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:01:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:01:57 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T04:01:57 - [TEST_STEP][PASSED] - dashboard.clickMenuPetugas(): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:01:57 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:01:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:01 - [MESSAGE][PASSED] - Object: 'btnLogout' is clicked on
+
+13-09-2025T04:02:01 - [TEST_STEP][PASSED] - admin.clickTambahAdmin(): Object: 'btnTambahAdmin' is clicked on
+
+13-09-2025T04:02:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:04 - [MESSAGE][PASSED] - Object: 'btnTambahAdmin' is clicked on
+
+13-09-2025T04:02:04 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:02:04 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:02:04 - [TEST_STEP][PASSED] - admin.inputUsername(data.getValue("Username", index)): Text 'admin01' is set on object 'txtAdminUsername'
+
+13-09-2025T04:02:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:05 - [MESSAGE][PASSED] - Text 'admin01' is set on object 'txtAdminUsername'
+
+13-09-2025T04:02:05 - [TEST_STEP][PASSED] - admin.inputPassword(data.getValue("Password", index)): Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:02:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:06 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:02:06 - [TEST_STEP][PASSED] - admin.inputEmail(data.getValue("Email", index)): Text 'admin01@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:02:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:07 - [MESSAGE][PASSED] - Text 'admin01@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:02:07 - [TEST_STEP][PASSED] - admin.uploadFoto(data.getValue("Foto", index)): File 'E:/Full Time Jobs/4. Automation Test Katalon Studio/Repository/SQA_Automation_Test_Project/Pictures/sample_foto.png' sent to object: 'txtAdminFoto'
+
+13-09-2025T04:02:07 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:07 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:07 - [MESSAGE][PASSED] - File 'E:/Full Time Jobs/4. Automation Test Katalon Studio/Repository/SQA_Automation_Test_Project/Pictures/sample_foto.png' sent to object: 'txtAdminFoto'
+
+13-09-2025T04:02:07 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:02:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Admin create success\Run2/screenshot_1.png]]
+
+13-09-2025T04:02:08 - [TEST_STEP][PASSED] - admin.clickSimpan(): Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:02:08 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:08 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:08 - [MESSAGE][PASSED] - Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:02:08 - [TEST_STEP][PASSED] - admin.verifyListDataAdmin(data.getValue("Username", index), data.getValue("Email", index)): ✅ Data ditemukan dan unik: [admin01, admin01@example.com]
+
+13-09-2025T04:02:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-09-2025T04:02:13 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:14 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:02:14 - [MESSAGE][INFO] - Jumlah row ditemukan: 2
+
+13-09-2025T04:02:14 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin01'
+
+13-09-2025T04:02:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:14 - [MESSAGE][INFO] - Row 1, Col 2: 'admin01' vs 'admin01'
+
+13-09-2025T04:02:14 - [MESSAGE][PASSED] - Text of object 'cell_1_3' is: 'admin01@example.com'
+
+13-09-2025T04:02:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:15 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:15 - [MESSAGE][INFO] - Row 1, Col 3: 'admin01@example.com' vs 'admin01@example.com'
+
+13-09-2025T04:02:15 - [MESSAGE][PASSED] - Text of object 'cell_2_2' is: 'Suhendar'
+
+13-09-2025T04:02:15 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:15 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:15 - [MESSAGE][INFO] - Row 2, Col 2: 'Suhendar' vs 'admin01'
+
+13-09-2025T04:02:15 - [MESSAGE][INFO] - ✅ Data ditemukan dan unik: [admin01, admin01@example.com]
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:02:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Admin create success\Run2/screenshot_2.png]]
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:02:15 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Admin/TC02_Positive_Admin create without photo" time="19.736" classname="Test Cases/Web/Admin/TC02_Positive_Admin create without photo" status="PASSED">
+         <system-out><![CDATA[13-09-2025T04:02:15 - [TEST_CASE][PASSED] - Test Cases/Web/Admin/TC02_Positive_Admin create without photo: Test Cases/Web/Admin/TC02_Positive_Admin create without photo
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - admin = new pageObjects.WebAdminPage(): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - if (Single_Login == true): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:02:16 - [TEST_STEP][PASSED] - dashboard.clickMenuPetugas(): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:02:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:19 - [MESSAGE][PASSED] - Object: 'btnLogout' is clicked on
+
+13-09-2025T04:02:19 - [TEST_STEP][PASSED] - admin.clickTambahAdmin(): Object: 'btnTambahAdmin' is clicked on
+
+13-09-2025T04:02:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:22 - [MESSAGE][PASSED] - Object: 'btnTambahAdmin' is clicked on
+
+13-09-2025T04:02:22 - [TEST_STEP][PASSED] - admin.inputUsername(data.getValue("Username", index)): Text 'admin02' is set on object 'txtAdminUsername'
+
+13-09-2025T04:02:22 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:23 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:23 - [MESSAGE][PASSED] - Text 'admin02' is set on object 'txtAdminUsername'
+
+13-09-2025T04:02:23 - [TEST_STEP][PASSED] - admin.inputPassword(data.getValue("Password", index)): Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:02:23 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:23 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:24 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:02:24 - [TEST_STEP][PASSED] - admin.inputEmail(data.getValue("Email", index)): Text 'admin02@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:02:24 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:24 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:24 - [MESSAGE][PASSED] - Text 'admin02@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:02:24 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:02:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Positive_Admin create without photo\Run2/screenshot_1.png]]
+
+13-09-2025T04:02:24 - [TEST_STEP][PASSED] - admin.clickSimpan(): Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:02:25 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:25 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:30 - [MESSAGE][PASSED] - Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:02:30 - [TEST_STEP][PASSED] - admin.verifyListDataAdmin(data.getValue("Username", index), data.getValue("Email", index)): ✅ Data ditemukan dan unik: [admin02, admin02@example.com]
+
+13-09-2025T04:02:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-09-2025T04:02:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:33 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:02:33 - [MESSAGE][INFO] - Jumlah row ditemukan: 3
+
+13-09-2025T04:02:33 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin02'
+
+13-09-2025T04:02:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:34 - [MESSAGE][INFO] - Row 1, Col 2: 'admin02' vs 'admin02'
+
+13-09-2025T04:02:34 - [MESSAGE][PASSED] - Text of object 'cell_1_3' is: 'admin02@example.com'
+
+13-09-2025T04:02:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:34 - [MESSAGE][INFO] - Row 1, Col 3: 'admin02@example.com' vs 'admin02@example.com'
+
+13-09-2025T04:02:34 - [MESSAGE][PASSED] - Text of object 'cell_2_2' is: 'admin01'
+
+13-09-2025T04:02:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:34 - [MESSAGE][INFO] - Row 2, Col 2: 'admin01' vs 'admin02'
+
+13-09-2025T04:02:35 - [MESSAGE][PASSED] - Text of object 'cell_3_2' is: 'Suhendar'
+
+13-09-2025T04:02:35 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:35 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:35 - [MESSAGE][INFO] - Row 3, Col 2: 'Suhendar' vs 'admin02'
+
+13-09-2025T04:02:35 - [MESSAGE][INFO] - ✅ Data ditemukan dan unik: [admin02, admin02@example.com]
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:02:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Positive_Admin create without photo\Run2/screenshot_2.png]]
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Admin/TC03_Positive_Admin update success" time="27.402" classname="Test Cases/Web/Admin/TC03_Positive_Admin update success" status="PASSED">
+         <system-out><![CDATA[13-09-2025T04:02:35 - [TEST_CASE][PASSED] - Test Cases/Web/Admin/TC03_Positive_Admin update success: Test Cases/Web/Admin/TC03_Positive_Admin update success
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T04:02:35 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - admin = new pageObjects.WebAdminPage(): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - if (Single_Login == true): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:02:36 - [TEST_STEP][PASSED] - dashboard.clickMenuPetugas(): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:02:36 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:36 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:39 - [MESSAGE][PASSED] - Object: 'btnLogout' is clicked on
+
+13-09-2025T04:02:39 - [TEST_STEP][PASSED] - admin.clickUpdateDataAdmin(data.getValue("Email", index)): Klik sukses untuk unique value: admin01@example.com
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Found web elements by •••••••• object row_1
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_1_1' is: '1'
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 1, col 1: [1] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin02'
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 1, col 2: [admin02] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_1_3' is: 'admin02@example.com'
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 1, col 3: [admin02@example.com] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_1_4' is: ''
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 1, col 4: [] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_1_5' is: 'Update | Delete'
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 1, col 5: [Update | Delete] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Found web elements by •••••••• object row_2
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_2_1' is: '2'
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 2, col 1: [2] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_2_2' is: 'admin01'
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 2, col 2: [admin01] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Text of object 'cell_2_3' is: 'admin01@example.com'
+
+13-09-2025T04:02:41 - [MESSAGE][INFO] - Checking row 2, col 3: [admin01@example.com] vs [admin01@example.com]
+
+13-09-2025T04:02:41 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:42 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:49 - [MESSAGE][PASSED] - Object: 'targetBtn_2' is clicked on
+
+13-09-2025T04:02:49 - [MESSAGE][INFO] - Klik sukses untuk unique value: admin01@example.com
+
+13-09-2025T04:02:49 - [TEST_STEP][PASSED] - admin.updateUsername(data.getValue("Username", index)): Text 'admin03' is set on object 'txtAdminUsername'
+
+13-09-2025T04:02:49 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:49 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:49 - [MESSAGE][PASSED] - Text of object 'txtAdminUsername' is cleared
+
+13-09-2025T04:02:49 - [MESSAGE][PASSED] - Text 'admin03' is set on object 'txtAdminUsername'
+
+13-09-2025T04:02:49 - [TEST_STEP][PASSED] - admin.updatePassword(data.getValue("Password", index)): Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:02:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:50 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:02:50 - [TEST_STEP][PASSED] - admin.updateEmail(data.getValue("Email Update", index)): Text 'admin03@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:02:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:51 - [MESSAGE][PASSED] - Text of object 'txtAdminEmail' is cleared
+
+13-09-2025T04:02:51 - [MESSAGE][PASSED] - Text 'admin03@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:02:51 - [TEST_STEP][PASSED] - admin.uploadFoto(data.getValue("Foto", index)): File 'E:/Full Time Jobs/4. Automation Test Katalon Studio/Repository/SQA_Automation_Test_Project/Pictures/sample_foto_update.jpg' sent to object: 'txtAdminFoto'
+
+13-09-2025T04:02:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:51 - [MESSAGE][PASSED] - File 'E:/Full Time Jobs/4. Automation Test Katalon Studio/Repository/SQA_Automation_Test_Project/Pictures/sample_foto_update.jpg' sent to object: 'txtAdminFoto'
+
+13-09-2025T04:02:51 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:02:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Positive_Admin update success\Run2/screenshot_1.png]]
+
+13-09-2025T04:02:52 - [TEST_STEP][PASSED] - admin.clickSimpan(): Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:02:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:02:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:02:57 - [MESSAGE][PASSED] - Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:02:57 - [TEST_STEP][PASSED] - admin.verifyListDataAdmin(data.getValue("Username", index), data.getValue("Email Update", index)): ✅ Data ditemukan dan unik: [admin03, admin03@example.com]
+
+13-09-2025T04:03:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-09-2025T04:03:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:03:01 - [MESSAGE][INFO] - Jumlah row ditemukan: 3
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin02'
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:01 - [MESSAGE][INFO] - Row 1, Col 2: 'admin02' vs 'admin03'
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Text of object 'cell_2_2' is: 'admin03'
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:01 - [MESSAGE][INFO] - Row 2, Col 2: 'admin03' vs 'admin03'
+
+13-09-2025T04:03:01 - [MESSAGE][PASSED] - Text of object 'cell_2_3' is: 'admin03@example.com'
+
+13-09-2025T04:03:02 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:02 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:02 - [MESSAGE][INFO] - Row 2, Col 3: 'admin03@example.com' vs 'admin03@example.com'
+
+13-09-2025T04:03:02 - [MESSAGE][PASSED] - Text of object 'cell_3_2' is: 'Suhendar'
+
+13-09-2025T04:03:02 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:02 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:02 - [MESSAGE][INFO] - Row 3, Col 2: 'Suhendar' vs 'admin03'
+
+13-09-2025T04:03:02 - [MESSAGE][INFO] - ✅ Data ditemukan dan unik: [admin03, admin03@example.com]
+
+13-09-2025T04:03:02 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:03:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Positive_Admin update success\Run2/screenshot_2.png]]
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Admin/TC04_Positive_Admin update without photo" time="26.379" classname="Test Cases/Web/Admin/TC04_Positive_Admin update without photo" status="PASSED">
+         <system-out><![CDATA[13-09-2025T04:03:03 - [TEST_CASE][PASSED] - Test Cases/Web/Admin/TC04_Positive_Admin update without photo: Test Cases/Web/Admin/TC04_Positive_Admin update without photo
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - admin = new pageObjects.WebAdminPage(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - if (Single_Login == true): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:03:03 - [TEST_STEP][PASSED] - dashboard.clickMenuPetugas(): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:03:03 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:06 - [MESSAGE][PASSED] - Object: 'btnLogout' is clicked on
+
+13-09-2025T04:03:06 - [TEST_STEP][PASSED] - admin.clickUpdateDataAdmin(data.getValue("Email", index)): Klik sukses untuk unique value: admin02@example.com
+
+13-09-2025T04:03:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T04:03:08 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:03:08 - [MESSAGE][PASSED] - Found web elements by •••••••• object row_1
+
+13-09-2025T04:03:09 - [MESSAGE][PASSED] - Text of object 'cell_1_1' is: '1'
+
+13-09-2025T04:03:09 - [MESSAGE][INFO] - Checking row 1, col 1: [1] vs [admin02@example.com]
+
+13-09-2025T04:03:09 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin02'
+
+13-09-2025T04:03:09 - [MESSAGE][INFO] - Checking row 1, col 2: [admin02] vs [admin02@example.com]
+
+13-09-2025T04:03:09 - [MESSAGE][PASSED] - Text of object 'cell_1_3' is: 'admin02@example.com'
+
+13-09-2025T04:03:09 - [MESSAGE][INFO] - Checking row 1, col 3: [admin02@example.com] vs [admin02@example.com]
+
+13-09-2025T04:03:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:16 - [MESSAGE][PASSED] - Object: 'targetBtn_1' is clicked on
+
+13-09-2025T04:03:16 - [MESSAGE][INFO] - Klik sukses untuk unique value: admin02@example.com
+
+13-09-2025T04:03:16 - [TEST_STEP][PASSED] - admin.updateUsername(data.getValue("Username", index)): Text 'admin04' is set on object 'txtAdminUsername'
+
+13-09-2025T04:03:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:16 - [MESSAGE][PASSED] - Text of object 'txtAdminUsername' is cleared
+
+13-09-2025T04:03:16 - [MESSAGE][PASSED] - Text 'admin04' is set on object 'txtAdminUsername'
+
+13-09-2025T04:03:16 - [TEST_STEP][PASSED] - admin.updatePassword(data.getValue("Password", index)): Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:03:16 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:17 - [MESSAGE][PASSED] - Text 'Admin@123' is set on object 'txtAdminPassword'
+
+13-09-2025T04:03:17 - [TEST_STEP][PASSED] - admin.updateEmail(data.getValue("Email Update", index)): Text 'admin04@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:03:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:18 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:18 - [MESSAGE][PASSED] - Text of object 'txtAdminEmail' is cleared
+
+13-09-2025T04:03:18 - [MESSAGE][PASSED] - Text 'admin04@example.com' is set on object 'txtAdminEmail'
+
+13-09-2025T04:03:18 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:03:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Positive_Admin update without photo\Run2/screenshot_1.png]]
+
+13-09-2025T04:03:18 - [TEST_STEP][PASSED] - admin.clickSimpan(): Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:03:18 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:23 - [MESSAGE][PASSED] - Object: 'btnAdminSimpan' is clicked on
+
+13-09-2025T04:03:23 - [TEST_STEP][PASSED] - admin.verifyListDataAdmin(data.getValue("Username", index), data.getValue("Email Update", index)): ✅ Data ditemukan dan unik: [admin04, admin04@example.com]
+
+13-09-2025T04:03:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:03:27 - [MESSAGE][INFO] - Jumlah row ditemukan: 3
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin04'
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:27 - [MESSAGE][INFO] - Row 1, Col 2: 'admin04' vs 'admin04'
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Text of object 'cell_1_3' is: 'admin04@example.com'
+
+13-09-2025T04:03:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:28 - [MESSAGE][INFO] - Row 1, Col 3: 'admin04@example.com' vs 'admin04@example.com'
+
+13-09-2025T04:03:28 - [MESSAGE][PASSED] - Text of object 'cell_2_2' is: 'admin03'
+
+13-09-2025T04:03:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:28 - [MESSAGE][INFO] - Row 2, Col 2: 'admin03' vs 'admin04'
+
+13-09-2025T04:03:28 - [MESSAGE][PASSED] - Text of object 'cell_3_2' is: 'Suhendar'
+
+13-09-2025T04:03:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:29 - [MESSAGE][INFO] - Row 3, Col 2: 'Suhendar' vs 'admin04'
+
+13-09-2025T04:03:29 - [MESSAGE][INFO] - ✅ Data ditemukan dan unik: [admin04, admin04@example.com]
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:03:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Positive_Admin update without photo\Run2/screenshot_2.png]]
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Admin/TC05_Positive_Admin delete success" time="12.068" classname="Test Cases/Web/Admin/TC05_Positive_Admin delete success" status="PASSED">
+         <system-out><![CDATA[13-09-2025T04:03:29 - [TEST_CASE][PASSED] - Test Cases/Web/Admin/TC05_Positive_Admin delete success: Test Cases/Web/Admin/TC05_Positive_Admin delete success
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - admin = new pageObjects.WebAdminPage(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - if (Single_Login == true): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:03:29 - [TEST_STEP][PASSED] - dashboard.clickMenuPetugas(): Object: 'btnLogout' is clicked on
+
+13-09-2025T04:03:30 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:30 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:32 - [MESSAGE][PASSED] - Object: 'btnLogout' is clicked on
+
+13-09-2025T04:03:32 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:03:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Positive_Admin delete success\Run2/screenshot_1.png]]
+
+13-09-2025T04:03:33 - [TEST_STEP][PASSED] - admin.clickDeleteDataAdmin(data.getValue("Email", index)): Klik sukses untuk unique value: admin04@example.com
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Found web elements by •••••••• object row_1
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Text of object 'cell_1_1' is: '1'
+
+13-09-2025T04:03:35 - [MESSAGE][INFO] - Checking row 1, col 1: [1] vs [admin04@example.com]
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin04'
+
+13-09-2025T04:03:35 - [MESSAGE][INFO] - Checking row 1, col 2: [admin04] vs [admin04@example.com]
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Text of object 'cell_1_3' is: 'admin04@example.com'
+
+13-09-2025T04:03:35 - [MESSAGE][INFO] - Checking row 1, col 3: [admin04@example.com] vs [admin04@example.com]
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Object: 'targetBtn_1' is clicked on
+
+13-09-2025T04:03:35 - [MESSAGE][INFO] - Klik sukses untuk unique value: admin04@example.com
+
+13-09-2025T04:03:35 - [TEST_STEP][PASSED] - admin.clickOKDeletePopup(): ✅ Accepted alert (clicked OK)
+
+13-09-2025T04:03:35 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+13-09-2025T04:03:36 - [MESSAGE][PASSED] - Get alert text successfully: 'Are You Sure ?'
+
+13-09-2025T04:03:36 - [MESSAGE][INFO] - ⚠️ Alert detected with message: Are You Sure ?
+
+13-09-2025T04:03:36 - [MESSAGE][PASSED] - Alert accepted
+
+13-09-2025T04:03:36 - [MESSAGE][INFO] - ✅ Accepted alert (clicked OK)
+
+13-09-2025T04:03:36 - [TEST_STEP][PASSED] - admin.verifyDataAdminDeleted(data.getValue("Username", index), data.getValue("Email", index)): ✅ Data sudah tidak ada di tabel (berhasil dihapus): [admin04, admin04@example.com]
+
+13-09-2025T04:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-09-2025T04:03:40 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:03:41 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:03:41 - [MESSAGE][PASSED] - Found web elements by •••••••• object tableRows
+
+13-09-2025T04:03:41 - [MESSAGE][PASSED] - Text of object 'cell_1_2' is: 'admin03'
+
+13-09-2025T04:03:41 - [MESSAGE][PASSED] - Text of object 'cell_2_2' is: 'Suhendar'
+
+13-09-2025T04:03:41 - [MESSAGE][INFO] - ✅ Data sudah tidak ada di tabel (berhasil dihapus): [admin04, admin04@example.com]
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:03:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Positive_Admin delete success\Run2/screenshot_2.png]]
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2025T04:01:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestSuite: null
+
+13-09-2025T04:01:36 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): null
+
+13-09-2025T04:01:38 - [TEST_STEP][PASSED] - WebActions().openBrowser("Chrome", Web_Url): null
+
+13-09-2025T04:01:46 - [TEST_STEP][PASSED] - testCases.clear(): null
+
+13-09-2025T04:01:46 - [TEST_STEP][PASSED] - startTimes.clear(): null
+
+13-09-2025T04:01:46 - [TEST_STEP][PASSED] - println([INFO] Mulai Test Suite: $testSuiteContext.getTestSuiteId()): null
+
+13-09-2025T04:01:35 - [TEST_SUITE][PASSED] - TS_Admin Feature: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - Start listener action : afterTestSuite: null
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - if (Close_Session_TS == true): Browser is closed
+
+13-09-2025T04:03:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2025T04:03:42 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2025T04:03:42 - [TEST_STEP][PASSED] - ••••••••SuiteName = getTestSuiteId().split("/")[-1]: null
+
+13-09-2025T04:03:42 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null
+
+13-09-2025T04:03:42 - [TEST_STEP][PASSED] - pdfPath = getProjectDir() + /Reports/CustomPDFReport/$••••••••SuiteName_Report_$timestamp.pdf: null
+
+13-09-2025T04:03:42 - [TEST_STEP][PASSED] - PdfReportGenerator.generateReport(pdfPath, ••••••••Cases, ••••••••SuiteName): null
+
+13-09-2025T04:03:44 - [TEST_STEP][PASSED] - println([INFO] PDF report berhasil dibuat: $pdfPath): null
+
+13-09-2025T04:03:44 - [TEST_STEP][PASSED] - total = ••••••••Cases.size(): null
+
+13-09-2025T04:03:44 - [TEST_STEP][PASSED] - passed = ••••••••Cases.count({ -> ... }): null
+
+13-09-2025T04:03:44 - [TEST_STEP][PASSED] - failed = ••••••••Cases.count({ -> ... }): null
+
+13-09-2025T04:03:44 - [TEST_STEP][PASSED] - passRate = ((total > 0)) ? ((passed * 100.0) / total) : 0: null
+
+13-09-2025T04:03:44 - [TEST_STEP][PASSED] - println([SUMMARY] Total=$total, Passed=$passed, Failed=$failed, PassRate=$String.format(%.2f%%, passRate)): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

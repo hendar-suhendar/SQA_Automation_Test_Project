@@ -7,7 +7,7 @@ build/
 
 # Ignore test reports & logs
 report/
-Reports/
+#Reports/
 *.log
 *.tmp
 

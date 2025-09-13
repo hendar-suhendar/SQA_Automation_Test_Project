@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Web/Login/TC01_Positive_Login Valid Credential","testCaseId":"Test Cases/Web/Login/TC01_Positive_Login Valid Credential","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Login/TC02_Negative_Login Invalid Username","testCaseId":"Test Cases/Web/Login/TC02_Negative_Login Invalid Username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Login/TC03_Negative_Login Invalid Password","testCaseId":"Test Cases/Web/Login/TC03_Negative_Login Invalid Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Login/TC04_Negative_Login Empty Username","testCaseId":"Test Cases/Web/Login/TC04_Negative_Login Empty Username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Login/TC05_Negative_Login Empty Password","testCaseId":"Test Cases/Web/Login/TC05_Negative_Login Empty Password","iterationVariableName":""}

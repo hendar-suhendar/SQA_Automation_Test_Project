@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login Feature" time="76.814" tests="5" failures="0" errors="0">
+   <testsuite name="TS_Login Feature" tests="5" failures="0" errors="0" time="76.814" skipped="0" timestamp="2025-09-12T20:59:03.863Z" hostname="Suhendar-PC - DESKTOP-0GKMVGL" id="Test Suites/Test Functionality/Website/TS_Login Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\Full Time Jobs\\4. Automation Test Katalon Studio\\Repository\\SQA_Automation_Test_Project\\Reports\\20250913_035849\\Test Functionality\\Website\\TS_Login Feature\\20250913_035849"/>
+         <property name="logFiles" value="E:\\Full Time Jobs\\4. Automation Test Katalon Studio\\Repository\\SQA_Automation_Test_Project\\Reports\\20250913_035849\\Test Functionality\\Website\\TS_Login Feature\\20250913_035849\\execution0.log"/>
+         <property name="attachments" value="E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run5/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run5/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run4/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run4/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run3/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run3/screenshot_2.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Negative_Login Empty Username\Run3/screenshot_1.png, E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Negative_Login Empty Password\Run3/screenshot_1.png"/>
+         <property name="hostName" value="Suhendar-PC - DESKTOP-0GKMVGL"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Chrome 140.0.7339.128"/>
+         <property name="userFullName" value="suhendar"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="23fa2bb378df487d3612f8a01d5eb171"/>
+         <property name="projectName" value="SQA_Automation_Test_Project"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web/Login/TC01_Positive_Login Valid Credential" time="24.547" classname="Test Cases/Web/Login/TC01_Positive_Login Valid Credential" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:59:13 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC01_Positive_Login Valid Credential: Test Cases/Web/Login/TC01_Positive_Login Valid Credential
+
+13-09-2025T03:59:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:59:13 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:59:13 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:59:15 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:59:16 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:59:16 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T03:59:16 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:59:16 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:59:16 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:59:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:18 - [MESSAGE][PASSED] - Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:59:18 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:59:18 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:18 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:59:19 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:59:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run5/screenshot_1.png]]
+
+13-09-2025T03:59:19 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:59:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:25 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:59:25 - [TEST_STEP][PASSED] - dashboard.verifyWelcomeMessage(data.getValue("Expected Outcome 1", index)): Actual text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' and expected text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' are matched 
+
+13-09-2025T03:59:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:59:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:28 - [MESSAGE][PASSED] - Text of object 'lblDashboardLoginSuccess' is: 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)'
+
+13-09-2025T03:59:28 - [MESSAGE][PASSED] - Actual text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' and expected text 'Selamat Datang Di Halaman Admin Website Creative Code (V 1.0)' are matched 
+
+13-09-2025T03:59:28 - [TEST_STEP][PASSED] - dashboard.verifyLoginInitial(data.getValue("Expected Outcome 2", index)): Actual text 'Suhendar' and expected text 'Suhendar' are matched 
+
+13-09-2025T03:59:28 - [MESSAGE][PASSED] - Object 'lblDashboardLoginInitial' is visible
+
+13-09-2025T03:59:28 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:29 - [MESSAGE][PASSED] - Text of object 'lblDashboardLoginInitial' is: 'Login Admin
+Suhendar'
+
+13-09-2025T03:59:29 - [MESSAGE][PASSED] - Actual text 'Suhendar' and expected text 'Suhendar' are matched 
+
+13-09-2025T03:59:29 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:59:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC01_Positive_Login Valid Credential\Run5/screenshot_2.png]]
+
+13-09-2025T03:59:29 - [TEST_STEP][PASSED] - dashboard.actionLogoutWebsite(): Object: 'btnLogout' is clicked on
+
+13-09-2025T03:59:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:30 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:30 - [MESSAGE][PASSED] - Object: 'ddlHeader' is clicked on
+
+13-09-2025T03:59:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:59:32 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:32 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:37 - [MESSAGE][PASSED] - Object: 'btnLogout' is clicked on
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC02_Negative_Login Invalid Username" time="10.359" classname="Test Cases/Web/Login/TC02_Negative_Login Invalid Username" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:59:37 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC02_Negative_Login Invalid Username: Test Cases/Web/Login/TC02_Negative_Login Invalid Username
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:59:37 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:59:38 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:59:38 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:39 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:39 - [MESSAGE][PASSED] - Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T03:59:39 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:59:39 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:39 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:59:40 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:59:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run4/screenshot_1.png]]
+
+13-09-2025T03:59:40 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:59:40 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:40 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:45 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:59:45 - [TEST_STEP][PASSED] - login.verifyErrorMessage(data.getValue("Expected Outcome 1", index)): Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T03:59:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:59:47 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:47 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:47 - [MESSAGE][PASSED] - Text of object 'lblErrorMessage' is: 'maaf username atau password salah'
+
+13-09-2025T03:59:47 - [MESSAGE][PASSED] - Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T03:59:47 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:59:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC02_Negative_Login Invalid Username\Run4/screenshot_2.png]]
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC03_Negative_Login Invalid Password" time="12.202" classname="Test Cases/Web/Login/TC03_Negative_Login Invalid Password" status="PASSED">
+         <system-out><![CDATA[13-09-2025T03:59:48 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC03_Negative_Login Invalid Password: Test Cases/Web/Login/TC03_Negative_Login Invalid Password
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - report = new generic.ReportUtils(): null
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): Refresh successfully
+
+13-09-2025T03:59:48 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+13-09-2025T03:59:51 - [MESSAGE][PASSED] - Refresh successfully
+
+13-09-2025T03:59:51 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T03:59:51 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T03:59:51 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'Tester2' is set on object 'txtUsername'
+
+13-09-2025T03:59:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:51 - [MESSAGE][PASSED] - Text 'Tester2' is set on object 'txtUsername'
+
+13-09-2025T03:59:51 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:59:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T03:59:52 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T03:59:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run3/screenshot_1.png]]
+
+13-09-2025T03:59:52 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T03:59:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T03:59:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T03:59:57 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T03:59:57 - [TEST_STEP][PASSED] - login.verifyErrorMessage(data.getValue("Expected Outcome 1", index)): Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T03:59:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-09-2025T03:59:59 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:00:00 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:00:00 - [MESSAGE][PASSED] - Text of object 'lblErrorMessage' is: 'maaf username atau password salah'
+
+13-09-2025T04:00:00 - [MESSAGE][PASSED] - Actual text 'maaf username atau password salah' and expected text 'maaf username atau password salah' are matched 
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:00:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC03_Negative_Login Invalid Password\Run3/screenshot_2.png]]
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC04_Negative_Login Empty Username" time="9.904" classname="Test Cases/Web/Login/TC04_Negative_Login Empty Username" status="PASSED">
+         <system-out><![CDATA[13-09-2025T04:00:00 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC04_Negative_Login Empty Username: Test Cases/Web/Login/TC04_Negative_Login Empty Username
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): Refresh successfully
+
+13-09-2025T04:00:00 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+13-09-2025T04:00:03 - [MESSAGE][PASSED] - Refresh successfully
+
+13-09-2025T04:00:03 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:00:03 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:00:03 - [TEST_STEP][PASSED] - login.inputPassword(data.getValue("Password", index)): Text ****** has been set on object 'txtPassword'
+
+13-09-2025T04:00:03 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:00:03 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:00:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'txtPassword'
+
+13-09-2025T04:00:03 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T04:00:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:00:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:00:04 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T04:00:04 - [TEST_STEP][PASSED] - login.verifyPopupAlertMessage(data.getValue("Expected Outcome 1", index)): verify equals message on alert popup
+
+13-09-2025T04:00:04 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T04:00:04 - [MESSAGE][PASSED] - Get alert text successfully: 'maaf username tidak boleh kosong'
+
+13-09-2025T04:00:04 - [MESSAGE][INFO] - Alert text: maaf username tidak boleh kosong
+
+13-09-2025T04:00:04 - [MESSAGE][PASSED] - Actual object 'maaf username tidak boleh kosong' and expected object 'maaf username tidak boleh kosong' are equal
+
+13-09-2025T04:00:04 - [MESSAGE][INFO] - verify equals message on alert popup
+
+13-09-2025T04:00:04 - [TEST_STEP][PASSED] - login.clickOkButtonAlertPopup(): OK button clicked on alert popup
+
+13-09-2025T04:00:04 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T04:00:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-09-2025T04:00:09 - [MESSAGE][PASSED] - Alert accepted
+
+13-09-2025T04:00:09 - [MESSAGE][INFO] - OK button clicked on alert popup
+
+13-09-2025T04:00:09 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:00:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC04_Negative_Login Empty Username\Run3/screenshot_1.png]]
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Login/TC05_Negative_Login Empty Password" time="10.361" classname="Test Cases/Web/Login/TC05_Negative_Login Empty Password" status="PASSED">
+         <system-out><![CDATA[13-09-2025T04:00:10 - [TEST_CASE][PASSED] - Test Cases/Web/Login/TC05_Negative_Login Empty Password: Test Cases/Web/Login/TC05_Negative_Login Empty Password
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - ••••••••CaseName = split("/").last(): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - TestDataUtils.loadTestData(••••••••CaseName): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - if (Single_Open_Browser == false): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - println("Open Browser is NOT set for single running."): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - tcName = getTestCaseId().tokenize("/")[-1]: null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - TempGlobalVariables.set("Test_Case_Name", tcName): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - ReportUtils.createNewFolder(tcName): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - startTimes[tcName] = System.currentTimeMillis(): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - login = new pageObjects.WebLoginPage(): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - dashboard = new pageObjects.WebDashboardPage(): null
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): Refresh successfully
+
+13-09-2025T04:00:10 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+13-09-2025T04:00:13 - [MESSAGE][PASSED] - Refresh successfully
+
+13-09-2025T04:00:13 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:00:13 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:00:13 - [TEST_STEP][PASSED] - login.inputUsername(data.getValue("Username", index)): Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T04:00:13 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:00:13 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:00:13 - [MESSAGE][PASSED] - Text 'suhendar' is set on object 'txtUsername'
+
+13-09-2025T04:00:13 - [TEST_STEP][PASSED] - login.clearInputPassword(): Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:00:14 - [MESSAGE][PASSED] - Text of object 'txtPassword' is cleared
+
+13-09-2025T04:00:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:00:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:00:14 - [TEST_STEP][PASSED] - login.clickLogin(): Object: 'btnLogin' is clicked on
+
+13-09-2025T04:00:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red; border-style: dashed;')' successfully
+
+13-09-2025T04:00:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', '')' successfully
+
+13-09-2025T04:00:15 - [MESSAGE][PASSED] - Object: 'btnLogin' is clicked on
+
+13-09-2025T04:00:15 - [TEST_STEP][PASSED] - login.verifyPopupAlertMessage(data.getValue("Expected Outcome 1", index)): verify equals message on alert popup
+
+13-09-2025T04:00:15 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T04:00:15 - [MESSAGE][PASSED] - Get alert text successfully: 'maaf password tidak boleh kosong'
+
+13-09-2025T04:00:15 - [MESSAGE][INFO] - Alert text: maaf password tidak boleh kosong
+
+13-09-2025T04:00:15 - [MESSAGE][PASSED] - Actual object 'maaf password tidak boleh kosong' and expected object 'maaf password tidak boleh kosong' are equal
+
+13-09-2025T04:00:15 - [MESSAGE][INFO] - verify equals message on alert popup
+
+13-09-2025T04:00:15 - [TEST_STEP][PASSED] - login.clickOkButtonAlertPopup(): OK button clicked on alert popup
+
+13-09-2025T04:00:15 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+13-09-2025T04:00:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+13-09-2025T04:00:20 - [MESSAGE][PASSED] - Alert accepted
+
+13-09-2025T04:00:20 - [MESSAGE][INFO] - OK button clicked on alert popup
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - ReportUtils.captureScreenshot(): Taking screenshot successfully
+
+13-09-2025T04:00:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\Full Time Jobs\4. Automation Test Katalon Studio\Repository\SQA_Automation_Test_Project\Reports\CustomPDFReport\TC05_Negative_Login Empty Password\Run3/screenshot_1.png]]
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - if (Close_Session_TC == true): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - data = currentTestData: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - index = currentIndex: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - tcName = getTestCaseId().split("/")[-1]: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - startTime = (startTimes[tcName]) ? startTimes[tcName] : java.lang.System.currentTimeMillis(): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - endTime = System.currentTimeMillis(): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - execTimeInSeconds = endTime - startTime / 1000.0: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - rawStatus = (••••••••CaseContext.getTestCaseStatus()) ? ••••••••CaseContext.getTestCaseStatus() : NOT_EXECUTED: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - status = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - switch (rawStatus.toUpperCase()): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - case "PASSED":: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - status = "PASS": null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - break: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - println([INFO] TC: $tcName, Status=$status, Time=$String.format(%.2f, execTimeInSeconds) detik): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - projectDir = getProjectDir(): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - baseFolder = new java.io.File($projectDir/Reports/CustomPDFReport/$tcName): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - if (!(baseFolder.exists())): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - targetRunFolder = null: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - runFolders = (baseFolder.listFiles()?.findAll({ -> ... })) ? baseFolder.listFiles()?.findAll({ -> ... }) : []: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - if (runFolders): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - targetRunFolder = runFolders.max({ java.lang.Object f -> ... }): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - if (!(targetRunFolder)): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - screenshots = []: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - if (status.equalsIgnoreCase("FAIL")): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - else: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] -  }).each({ java.lang.Object file -> ... }): null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - remarks = (status.equalsIgnoreCase(PASS)) ? Test case passed : Error displayed: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - ••••••••Cases << ["id":tcName, "name":data.getValue("Description", index), "status":status, "time":execTimeInSeconds, "screenshot":screenshots, ... ]: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-09-2025T03:59:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestSuite: null
+
+13-09-2025T03:59:04 - [TEST_STEP][PASSED] - if (Single_Open_Browser == true): null
+
+13-09-2025T03:59:06 - [TEST_STEP][PASSED] - WebActions().openBrowser("Chrome", Web_Url): null
+
+13-09-2025T03:59:12 - [TEST_STEP][PASSED] - testCases.clear(): null
+
+13-09-2025T03:59:12 - [TEST_STEP][PASSED] - startTimes.clear(): null
+
+13-09-2025T03:59:12 - [TEST_STEP][PASSED] - println([INFO] Mulai Test Suite: $testSuiteContext.getTestSuiteId()): null
+
+13-09-2025T03:59:03 - [TEST_SUITE][PASSED] - TS_Login Feature: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - Start listener action : afterTestSuite: null
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - if (Close_Session_TS == true): Browser is closed
+
+13-09-2025T04:00:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-09-2025T04:00:21 - [MESSAGE][PASSED] - Browser is closed
+
+13-09-2025T04:00:21 - [TEST_STEP][PASSED] - ••••••••SuiteName = getTestSuiteId().split("/")[-1]: null
+
+13-09-2025T04:00:21 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null
+
+13-09-2025T04:00:21 - [TEST_STEP][PASSED] - pdfPath = getProjectDir() + /Reports/CustomPDFReport/$••••••••SuiteName_Report_$timestamp.pdf: null
+
+13-09-2025T04:00:21 - [TEST_STEP][PASSED] - PdfReportGenerator.generateReport(pdfPath, ••••••••Cases, ••••••••SuiteName): null
+
+13-09-2025T04:00:23 - [TEST_STEP][PASSED] - println([INFO] PDF report berhasil dibuat: $pdfPath): null
+
+13-09-2025T04:00:23 - [TEST_STEP][PASSED] - total = ••••••••Cases.size(): null
+
+13-09-2025T04:00:23 - [TEST_STEP][PASSED] - passed = ••••••••Cases.count({ -> ... }): null
+
+13-09-2025T04:00:23 - [TEST_STEP][PASSED] - failed = ••••••••Cases.count({ -> ... }): null
+
+13-09-2025T04:00:23 - [TEST_STEP][PASSED] - passRate = ((total > 0)) ? ((passed * 100.0) / total) : 0: null
+
+13-09-2025T04:00:23 - [TEST_STEP][PASSED] - println([SUMMARY] Total=$total, Passed=$passed, Failed=$failed, PassRate=$String.format(%.2f%%, passRate)): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

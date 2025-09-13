@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Web/Admin/TC01_Positive_Admin create success","testCaseId":"Test Cases/Web/Admin/TC01_Positive_Admin create success","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Admin/TC02_Positive_Admin create without photo","testCaseId":"Test Cases/Web/Admin/TC02_Positive_Admin create without photo","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Admin/TC03_Positive_Admin update success","testCaseId":"Test Cases/Web/Admin/TC03_Positive_Admin update success","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Admin/TC04_Positive_Admin update without photo","testCaseId":"Test Cases/Web/Admin/TC04_Positive_Admin update without photo","iterationVariableName":""}
+{"testCaseName":"Test Cases/Web/Admin/TC05_Positive_Admin delete success","testCaseId":"Test Cases/Web/Admin/TC05_Positive_Admin delete success","iterationVariableName":""}
