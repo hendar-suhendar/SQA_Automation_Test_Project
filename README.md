@@ -36,13 +36,15 @@ Pendekatan dan metodologi yang diterapkan dalam project ini, dengan **Page Objec
 </div>
 
 ---
-
-## Sample PDF Report
-📄 [Lihat Sample PDF Report](https://github.com/hendar-suhendar/SQA_Automation_Test_Project/Reports/CustomPDFReport/TS_Admin%20Feature_Report_20250913_040342.pdf)
+## Sample PDF Reports
+Report Test Functionality Register Admin
+📄 [📥 Download Admin Feature Report](https://raw.githubusercontent.com/hendar-suhendar/SQA_Automation_Test_Project/main/Reports/CustomPDFReport/TS_Admin%20Feature_Report_20250913_040342.pdf)
+Report Test Functionality Register Admin
+📄 [📥 Download Login Feature Report](https://raw.githubusercontent.com/hendar-suhendar/SQA_Automation_Test_Project/main/Reports/CustomPDFReport/TS_Login%20Feature_Report_20250913_034433.pdf)
 
 ---
 
-## Overview Demo Running
+## Overview Vidio Demo Running
 [![Watch the video](https://img.youtube.com/vi/rvEnTX8_atU/hqdefault.jpg)](https://youtu.be/rvEnTX8_atU?si=jXOkkeJxu4wpqMCB)
 
 ---
