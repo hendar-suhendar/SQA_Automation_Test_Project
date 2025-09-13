@@ -49,9 +49,10 @@ Report Test Functionality Login
 [![Watch the video](https://img.youtube.com/vi/rvEnTX8_atU/hqdefault.jpg)](https://youtu.be/rvEnTX8_atU?si=jXOkkeJxu4wpqMCB)
 
 ---
-## 📄 Test Plan Documentation Before Running Regression Test
+## 📄 Test Plan & Documentation
 
-Berikut Sample Test Planning and documentation Automation Testing yang biasa saya buat bisa diakses di link berikut:
+Berikut adalah sample **Test Planning** dan **Automation Testing Documentation** yang biasa saya buat.  
+Dokumen lengkap bisa diakses melalui link berikut:
 
 🔗 [Test Case Documentation for Automation Testing](https://docs.google.com/spreadsheets/d/1t7EvS--UrzoDaCsLcLkj0N6-x_6ND67L/edit?usp=sharing&ouid=105089972135786524572&rtpof=true&sd=true)
 
