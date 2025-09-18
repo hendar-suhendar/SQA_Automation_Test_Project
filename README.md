@@ -41,12 +41,6 @@ Pendekatan yang digunakan: **Page Object Model (POM)** dengan kombinasi **Keywor
 ## 🎥 Demo Video
 [![Watch the video](https://img.youtube.com/vi/rvEnTX8_atU/hqdefault.jpg)](https://youtu.be/rvEnTX8_atU?si=jXOkkeJxu4wpqMCB)  
 
----
-
-## 📄 Test Plan & Documentation
-Sample **Test Planning** & **Automation Testing Documentation**:  
-
-🔗 [Test Case Documentation for Automation Testing](https://docs.google.com/spreadsheets/d/1t7EvS--UrzoDaCsLcLkj0N6-x_6ND67L/edit?usp=sharing&ouid=105089972135786524572&rtpof=true&sd=true)  
 
 ---
 
