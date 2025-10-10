@@ -46,7 +46,7 @@ Pendekatan yang digunakan: **Page Object Model (POM)** dengan kombinasi **Keywor
 
 ## 📬 Contact
 <div align="center">
-  <img src="https://img.shields.io/badge/Email-myns.suhendar@gmail.com-blue" alt="Email">  
+  <img src="https://img.shields.io/badge/Email-fans.suhendar@gmail.com-blue" alt="Email">  
   <img src="https://img.shields.io/badge/LinkedIn-Profile-blue" alt="LinkedIn">  
   <img src="https://img.shields.io/badge/GitHub-hendar--suhendar-black" alt="GitHub">  
 </div>  
