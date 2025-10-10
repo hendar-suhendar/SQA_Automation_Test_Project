@@ -51,6 +51,6 @@ Pendekatan yang digunakan: **Page Object Model (POM)** dengan kombinasi **Keywor
   <img src="https://img.shields.io/badge/GitHub-hendar--suhendar-black" alt="GitHub">  
 </div>  
 
-- **Email:** myns.suhendar@gmail.com  
+- **Email:** fans.suhendar@gmail.com  
 - **LinkedIn:** [linkedin.com/in/hendarsqa](https://www.linkedin.com/in/hendarsqa)  
 - **GitHub:** [github.com/hendar-suhendar](https://github.com/hendar-suhendar)  
