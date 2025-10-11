@@ -28,6 +28,10 @@ Pendekatan yang digunakan: **Page Object Model (POM)** dengan kombinasi **Keywor
 **Reporting:** Automated **Custom PDF Report** dengan screenshot hasil eksekusi  
 
 ---
+## 📊 Sample Testcases Document
+- 
+  📄 [📥 View Testcases Document]([https://raw.githubusercontent.com/hendar-suhendar/SQA_Automation_Test_Project/main/Reports/CustomPDFReport/TS_Admin%20Feature_Report_20250913_040342.pdf](https://docs.google.com/spreadsheets/d/15zfaNvDFIqVOkC0B-jzH7wnqmNDTSOJ0/edit?usp=sharing&ouid=105089972135786524572&rtpof=true&sd=true))  
+
 
 ## 📊 Sample PDF Reports
 - Report Test Functionality Register Admin  
