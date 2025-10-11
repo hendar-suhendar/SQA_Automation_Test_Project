@@ -28,9 +28,13 @@ Pendekatan yang digunakan: **Page Object Model (POM)** dengan kombinasi **Keywor
 **Reporting:** Automated **Custom PDF Report** dengan screenshot hasil eksekusi  
 
 ---
-## 📊 Sample Testcases Document
-- 
-  📄 [📥 View Testcases Document]([https://raw.githubusercontent.com/hendar-suhendar/SQA_Automation_Test_Project/main/Reports/CustomPDFReport/TS_Admin%20Feature_Report_20250913_040342.pdf](https://docs.google.com/spreadsheets/d/15zfaNvDFIqVOkC0B-jzH7wnqmNDTSOJ0/edit?usp=sharing&ouid=105089972135786524572&rtpof=true&sd=true))  
+
+## 📊 My Testcases Document / Test Management using Google Spreadsheet Format
+
+Dokumen ini berisi manajemen testcases yang disusun dalam format Google Spreadsheet. Dokumen ini digunakan sebagai referensi utama dalam penyusunan task untuk pembuatan automation test scripting, serta dalam pelaksanaan smoke testing, sanity testing dan regression testing pada proses automation testing.
+
+📄 [📥 View Testcases Document](https://docs.google.com/spreadsheets/d/15zfaNvDFIqVOkC0B-jzH7wnqmNDTSOJ0/edit?usp=sharing&ouid=105089972135786524572&rtpof=true&sd=true)
+
 
 
 ## 📊 Sample PDF Reports
