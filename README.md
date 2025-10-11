@@ -33,7 +33,7 @@ Pendekatan yang digunakan: **Page Object Model (POM)** dengan kombinasi **Keywor
 
 Dokumen ini berisi manajemen testcases yang disusun dalam format Google Spreadsheet. Dokumen ini digunakan sebagai referensi utama dalam penyusunan task untuk pembuatan automation test scripting, serta dalam pelaksanaan smoke testing, sanity testing dan regression testing pada proses automation testing.
 
-📄 [📥 View Testcases Document](https://docs.google.com/spreadsheets/d/15zfaNvDFIqVOkC0B-jzH7wnqmNDTSOJ0/edit?usp=sharing&ouid=105089972135786524572&rtpof=true&sd=true)
+📄 [📥 View Testcases Document](https://docs.google.com/spreadsheets/d/1t7EvS--UrzoDaCsLcLkj0N6-x_6ND67L/edit?usp=sharing&ouid=105089972135786524572&rtpof=true&sd=true)
 
 
 
