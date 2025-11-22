@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C11D3616387BDC2663AD06DC4FAE1893",
+  "keywordClasses": [
+    {
+      "name": "locators.LoginLocators",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

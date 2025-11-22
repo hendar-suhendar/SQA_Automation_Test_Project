@@ -1,0 +1,48 @@
+{
+  "keywordFileContentHash": "FC234EA2FB2FC20EFAFFBA4FDAA9EA18",
+  "keywordClasses": [
+    {
+      "name": "generic.MobileActions",
+      "keywordMethods": [
+        {
+          "name": "isElementPresent_Mobile",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "timeout",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
+        },
+        {
+          "name": "getCurrentSessionMobileDriver",
+          "parameters": [],
+          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

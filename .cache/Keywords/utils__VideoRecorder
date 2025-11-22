@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "E3A3D17072DC632DADF34FBCA4318583",
+  "keywordClasses": [
+    {
+      "name": "utils.VideoRecorder",
+      "keywordMethods": [
+        {
+          "name": "startRecording",
+          "parameters": [
+            {
+              "name": "testCaseName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n     * Start recording video\r\n     * @param testCaseName Nama testcase\r\n     */"
+        },
+        {
+          "name": "stopRecording",
+          "parameters": [],
+          "javadoc": "/**\r\n     * Stop recording video\r\n     */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

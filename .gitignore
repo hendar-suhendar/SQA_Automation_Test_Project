@@ -1,27 +1,29 @@
+# Semua rule di bawah ini sudah dikomentari.
+# Jika ingin diaktifkan kembali, hapus tanda `#` di depan barisnya.
+
 # Ignore folder Katalon hasil build
-bin/
-Libs/
-#Reports/
-.settings/
-build/
+# bin/
+# Libs/
+# #Reports/
+# .settings/
+# build/
 
 # Ignore test reports & logs
-report/
-#Reports/
-*.log
-*.tmp
+# report/
+# #Reports/
+# *.log
+# *.tmp
 
 # Ignore test data temporary
-#*.xlsx
-*.csv
+# #*.xlsx
+# *.csv
 
 # Ignore Katalon keywords (kalau tidak mau dipush)
-Keywords/
+# Keywords/
 
 # Optional: kalau ada config environment lokal
-.settings/
-.project
-*.iml
-.idea/
-.vscode/
-
+# .settings/
+# .project
+# *.iml
+# .idea/
+# .vscode/

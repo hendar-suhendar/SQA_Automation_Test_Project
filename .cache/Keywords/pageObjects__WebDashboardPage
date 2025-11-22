@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5F90EF4CF988974E5DA74D6792A95B60",
+  "keywordClasses": [
+    {
+      "name": "pageObjects.WebDashboardPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

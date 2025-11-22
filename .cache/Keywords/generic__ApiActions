@@ -1,0 +1,88 @@
+{
+  "keywordFileContentHash": "71B1F8C252F846C06DAE44AE65DFF127",
+  "keywordClasses": [
+    {
+      "name": "generic.ApiActions",
+      "keywordMethods": [
+        {
+          "name": "verifyStatusCode",
+          "parameters": [
+            {
+              "name": "request",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "expectedStatusCode",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Send request and verify status code\n\t * @param request request object, must be an instance of RequestObject\n\t * @param expectedStatusCode\n\t * @return a boolean to indicate whether the response status code equals the expected one\n\t */"
+        },
+        {
+          "name": "addBasicAuthorizationProperty",
+          "parameters": [
+            {
+              "name": "request",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Add Header basic authorization field,\n\t * this field value is Base64 encoded token from user name and password\n\t * @param request object, must be an instance of RequestObject\n\t * @param username username\n\t * @param password password\n\t * @return the original request object with basic authorization header field added\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

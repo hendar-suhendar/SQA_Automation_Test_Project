@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "6929A4DBFF1551E37E1F0415ABA0711C",
+  "keywordClasses": [
+    {
+      "name": "pageObjects.RegisterPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

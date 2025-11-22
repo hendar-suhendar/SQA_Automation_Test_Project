@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DD56D63E268A83E8A3F0E2DEED5D8E27",
+  "keywordClasses": [
+    {
+      "name": "pageObjects.DashboardPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

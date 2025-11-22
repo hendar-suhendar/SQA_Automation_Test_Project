@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3457E1BED858C7C6BE817B7E5BCC7EE9",
+  "keywordClasses": [
+    {
+      "name": "pageObjects.LogoutPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

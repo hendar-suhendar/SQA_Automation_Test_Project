@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "03E8915A99E7355A31B8962E36332A4A",
+  "keywordClasses": [
+    {
+      "name": "locators.WebLocators",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

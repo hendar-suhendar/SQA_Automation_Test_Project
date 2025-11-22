@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "09C26E281999687F98BB7FC963C6108C",
+  "keywordClasses": [
+    {
+      "name": "helpers.PdfReportGenerator",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

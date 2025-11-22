@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "99BE3C13EE037834AF5C5F4E9B278A62",
+  "keywordClasses": [
+    {
+      "name": "pageObjects.WebAdminPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

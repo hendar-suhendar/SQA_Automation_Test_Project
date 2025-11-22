@@ -238,7 +238,7 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Suhendar-PC/.katalon/packages/KSE-10.3.0/plugins/org.testng_7.8.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Suhendar-PC/.katalon/packages/KSE-10.3.0/plugins/com.beust.jcommander_1.82.0.jar"/>
-	<classpathentry kind="lib" path="E:/Full Time Jobs/4. Automation Test Katalon Studio/Repository/SQA_Automation_Test_Project/Drivers/itextpdf-5.5.13.3.jar"/>
+	<classpathentry kind="lib" path="E:/Full Time Jobs/Automation Test using Katalon Studio/Repository/SQA_Automation_Test_Project/Drivers/itextpdf-5.5.13.3.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
